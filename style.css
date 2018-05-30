@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+body
+{
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-item
+{
+  padding: 0px 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link
+{
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover
+{
+  color: #fff;
+}
+
+.main
+{
+  height: 450px;
+  background-color: #333;
+  background-image: url(img/main-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.main h1
+{
+  font-size: 50px;
+  color: #fff;
+  font-weight: 200;
+}
+
+.main h3
+{
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.main button
+{
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px 30px;
+}
+
+.s-head
+{
+  padding-top: 100px;
+}
+
+.features
+{
+  padding: 50px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.features h4
+{
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.features button
+{
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px 30px;
+}
+
+.features img
+{
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.features .col
+{
+  margin-top: 50px;
+}
+
+.feat
+{
+  margin: 0px 20px;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+footer
+{
+  padding: 20px;
+  background-color: #333;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.login
+{
+  padding: 50px;
+}
+
+.login h1
+{
+  text-align: center;
+}
+
+.login form
+{
+  padding: 50px;
+  background-color: #eee;
+  margin-top: 50px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.login .btn
+{
+  width: 100%;
+  padding: 15px;
+}
+
+.admin-dash
+{
+  padding: 50px;
+}
+
+.admin-dash h1
+{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.admin-dash button
+{
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.card .alert
+{
+  display: inline-block;
+}
+
+.card
+{
+  margin-bottom: 20px;
+  background-color: #fafafa;
+}
+
+.member-det
+{
+  padding: 50px;
+}
+
+.member-det h1, .member-det h4
+{
+  text-align: center;
+}
+
+.member-det form
+{
+  padding: 50px;
+  background-color: #eee;
+  margin-top: 50px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.card-body img
+{
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
